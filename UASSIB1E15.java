@@ -70,7 +70,7 @@ public class UASSIB1E15 {
             if (skor15 >= 0) {
                 break;
             } else {
-                System.out.println("Skor tidak boleh negatif. Silahkan menginput data terlebih dahalu.");
+                System.out.println("Skor tidak boleh negatif. Coba lagi.");
             }
         }
         return skor15;
@@ -78,7 +78,7 @@ public class UASSIB1E15 {
 
     public static void tampilkanTabelSkor_20() {
         if (jumlahData15 == 0) {
-            System.out.println("Data belum diinput. Silahkan menginput data terlebih dahalu.");
+            System.out.println("Data belum diinput. Silahkan Menginputkan Data terlenbih dahalu.");
             return;
         }
 
@@ -91,7 +91,7 @@ public class UASSIB1E15 {
 
     public static void tentukanJuara_20() {
         if (jumlahData15 == 0) {
-            System.out.println("Data belum diinput. Coba Lagi!.");
+            System.out.println("Data belum diinput. Silahkan Menginputkan Data terlenbih dahalu.");
             return;
         }
 
